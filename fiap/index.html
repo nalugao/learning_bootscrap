@@ -1,0 +1,293 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Fiap - Bootscrap</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+    />
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
+  </head>
+  <body>
+    <!-- <div class="container-sm border">.container-sm</div>
+    <div class="container-md border">.container-md</div>
+    <div class="container-lg border">.container-lg</div>
+    <div class="container-xl border">.container-xl</div>
+    <div class="container-xxl border">.container-xxl</div>
+    <div class="container" style="background-color: bisque">
+      <h1>Bootscrap FIAP</h1>
+      <p>Esta parte está dentro de uma classe .container</p>
+      <p>
+        A classe .container fornece um container de largura fixa responsivo.
+      </p>
+    </div>
+    <div class="container-fluid border bg-light">
+      <h1>Bootscrap FIAP</h1>
+      <p>Esta parte está dentro de uma classe .container-fluid</p>
+      <p>
+        A classe .container-fluid fornece um container de largura fixa
+        responsivo, que ajuste confrme o tamanho.
+      </p>
+    </div>
+    <div class="container bg-dark text-white">
+      <h1>Minha primeira página Bootstrap</h1>
+      <p>Este contêiner tem uma cor de fundo escura e um texto branco.</p>
+    </div>
+
+    <div class="container bg-primary text-white">
+      <h1>Minha primeira página Bootstrap</h1>
+      <p>Este contêiner tem uma cor de fundo azul e um texto branco.</p>
+    </div> -->
+
+    <h1>SISTEMA DE GRID</h1>
+    <div class="container">
+      <!--componente fixo -->
+      <div class="row">
+        <!--Define a grid que comporta apenas 12 componentes-->
+        <div class="col border text-center">oi</div>
+        <div class="col border text-center">oi</div>
+      </div>
+      <div class="row">
+        <!--Define a grid que comporta apenas 12 componentes-->
+        <div class="col-sm-4 border text-center">oi</div>
+        <div class="col-sm-4 border text-center">oi</div>
+        <div class="col-sm-4 border text-center">oi</div>
+      </div>
+
+      <div class="row">
+        <!--Define a grid que comporta apenas 12 componentes-->
+        <div class="col border text-center">oi</div>
+        <div class="col border text-center">oi</div>
+        <div class="col border text-center">oi</div>
+        <div class="col border text-center">oi</div>
+        <div class="col border text-center">oi</div>
+        <div class="col border text-center">oi</div>
+      </div>
+    </div>
+
+    <div class="container-fluid">
+      <h2>Três colunas iguais</h2>
+      <div class="row">
+        <div class="col bg-primary text-white">.col</div>
+        <div class="col bg-dark text-white">.col</div>
+        <div class="col bg-primary text-white">.col</div>
+      </div>
+
+      <h2>Colunas Responsivas</h2>
+      <p>
+        As colunas serão empilhadas automaticamente umas sobre as outras quando
+        a tela tiver menos de 576 pixels de largura
+      </p>
+      <div class="row">
+        <div class="col-sm-3 bg-primary text-white">.col</div>
+        <div class="col-sm-3 bg-dark text-white">.col</div>
+        <div class="col-sm-3 bg-primary text-white">.col</div>
+        <div class="col-sm-3 bg-dark text-white">.col</div>
+      </div>
+
+      <h2>Duas colunas responsivas de tamanhos diferentes</h2>
+      <p>
+        As colunas serão empilhadas automaticamente umas sobre as outras quando
+        a tela tiver menos de 576 pixels de largura
+      </p>
+      <div class="row">
+        <div class="col-sm-4 bg-primary text-white">.col</div>
+        <div class="col-sm-8 bg-dark text-white">.col</div>
+      </div>
+    </div>
+
+    <div class="container">
+      <h2>Padrões de cores</h2>
+      <p>Contextualize as frase por meio das cores:</p>
+      <p class="text-muted">O texto é opaco.</p>
+      <p class="text-primary">O texto é importante.</p>
+      <p class="text-success">O texto indica sucesso.</p>
+      <p class="text-info">O texto representa alguma informação.</p>
+      <p class="text-warning">O texto representa um aviso.</p>
+      <p class="text-danger">O texto representa um perigo.</p>
+      <p class="text-secondary">Texto secundário.</p>
+      <p class="text-dark">O texto é cinza escuro.</p>
+      <p class="text-body">Cor padrão do body.</p>
+      <p class="text-light">O texto é cinza claro.</p>
+      <p class="text-white">O texto é branco.</p>
+    </div>
+
+    <div class="container mt-3">
+      <h2>Cores de background</h2>
+      <p>
+        Observe que você também pode adicionar uma classe .text-* se desejar uma
+        cor de texto diferente:
+      </p>
+      <p class="bg-primary text-white">O fundo é importante.</p>
+      <p class="bg-success text-white">O fundo indica sucesso.</p>
+      <p class="bg-info text-white">O fundo representa alguma informação.</p>
+      <p class="bg-warning text-white">O fundo representa um aviso.</p>
+      <p class="bg-danger text-white">O fundo representa um perigo.</p>
+      <p class="bg-secondary text-white">Fundo secundário.</p>
+      <p class="bg-dark text-white">Fundo é cinza escuro.</p>
+      <p class="bg-light text-dark">O fundo é cinza claro.</p>
+    </div>
+
+    <div class="container">
+      <h2>Tabelas</h2>
+      <table class="table">
+        <thead>
+          <th>Nome</th>
+          <th>Sobrenome</th>
+          <th>E-mail</th>
+        </thead>
+        <tbody>
+          <tr>
+            <td>Natalia</td>
+            <td>Lugão</td>
+            <td>nalu@email.com</td>
+          </tr>
+          <tr>
+            <td>Marco</td>
+            <td>Graziano</td>
+            <td>marco@email.com</td>
+          </tr>
+          <tr>
+            <td>Gloria</td>
+            <td>Alves</td>
+            <td>gloria@email.com</td>
+          </tr>
+        </tbody>
+      </table>
+
+      <table class="table table-striped">
+        <thead>
+          <th>Nome</th>
+          <th>Sobrenome</th>
+          <th>E-mail</th>
+        </thead>
+        <tbody>
+          <tr>
+            <td>Natalia</td>
+            <td>Lugão</td>
+            <td>nalu@email.com</td>
+          </tr>
+          <tr>
+            <td>Marco</td>
+            <td>Graziano</td>
+            <td>marco@email.com</td>
+          </tr>
+          <tr>
+            <td>Gloria</td>
+            <td>Alves</td>
+            <td>gloria@email.com</td>
+          </tr>
+        </tbody>
+      </table>
+
+      <table class="table table-bordered">
+        <thead>
+          <th>Nome</th>
+          <th>Sobrenome</th>
+          <th>E-mail</th>
+        </thead>
+        <tbody>
+          <tr>
+            <td>Natalia</td>
+            <td>Lugão</td>
+            <td>nalu@email.com</td>
+          </tr>
+          <tr>
+            <td>Marco</td>
+            <td>Graziano</td>
+            <td>marco@email.com</td>
+          </tr>
+          <tr>
+            <td>Gloria</td>
+            <td>Alves</td>
+            <td>gloria@email.com</td>
+          </tr>
+        </tbody>
+      </table>
+
+      <table class="table table-hover">
+        <thead>
+          <th>Nome</th>
+          <th>Sobrenome</th>
+          <th>E-mail</th>
+        </thead>
+        <tbody>
+          <tr>
+            <td>Natalia</td>
+            <td>Lugão</td>
+            <td>nalu@email.com</td>
+          </tr>
+          <tr>
+            <td>Marco</td>
+            <td>Graziano</td>
+            <td>marco@email.com</td>
+          </tr>
+          <tr>
+            <td>Gloria</td>
+            <td>Alves</td>
+            <td>gloria@email.com</td>
+          </tr>
+        </tbody>
+      </table>
+
+      <table class="table table-borderless">
+        <thead>
+          <th>Nome</th>
+          <th>Sobrenome</th>
+          <th>E-mail</th>
+        </thead>
+        <tbody>
+          <tr>
+            <td>Natalia</td>
+            <td>Lugão</td>
+            <td>nalu@email.com</td>
+          </tr>
+          <tr>
+            <td>Marco</td>
+            <td>Graziano</td>
+            <td>marco@email.com</td>
+          </tr>
+          <tr>
+            <td>Gloria</td>
+            <td>Alves</td>
+            <td>gloria@email.com</td>
+          </tr>
+        </tbody>
+      </table>
+
+      <table class="table table-responsive-sm">
+        <thead>
+          <th>Nome</th>
+          <th>Sobrenome</th>
+          <th>E-mail</th>
+        </thead>
+        <tbody>
+          <tr>
+            <td>Natalia</td>
+            <td>Lugão</td>
+            <td>nalu@email.com</td>
+          </tr>
+          <tr>
+            <td>Marco</td>
+            <td>Graziano</td>
+            <td>marco@email.com</td>
+          </tr>
+          <tr>
+            <td>Gloria</td>
+            <td>Alves</td>
+            <td>gloria@email.com</td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+
+    <div>
+      <h1>Alinhando Imagens</h1>
+      <div class="container">
+
+      </div>
+    </div>
+  </body>
+</html>
